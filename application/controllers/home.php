@@ -20,5 +20,15 @@ class Home extends CI_Controller
 	public function index(){
 		$this->load->view('templates/contents');
 	}
+	public function sample_output()
+	{
+		echo 'Hello world';
+	}
+	public function sample_output()
+	{
+		$msg ='Hello world';
+		$msg .='Hello world';
+		echo $msg;
+	}
 }
 
